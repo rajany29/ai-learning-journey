@@ -14,8 +14,8 @@ client = Groq(api_key=my_api_key)
 model = "llama-3.3-70b-versatile"
 role = "user"
 prompt1 = "hello "
-prompt2 = "there is so much noise here"
-prompt3 = "here is so slient place available"
+prompt2 = "There is so much noise here."
+prompt3 = "Is there a quiet place available?"
 
 prompts = [prompt1,prompt2,prompt3]
 for prompt in prompts:
