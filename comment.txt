@@ -1,0 +1,4 @@
+uv init day3
+uv venv --python 3.11
+.\.venv\Scripts\activate
+uv add groq python-dotenv
