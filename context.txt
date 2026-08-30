@@ -1,0 +1,23 @@
+uv init day2
+uv venv
+.venv\Scripts\activate
+uv add groq python-dotenv numpy sentence_transformers
+
+
+
+1.0  → exactly/similarly oriented
+0.8  → very similar
+0.5  → somewhat similar
+0.0  → unrelated
+-1.0 → opposite direction
+
+
+"There are 24 paid leaves"
+"There are 24 paid leaves"
+             ↓
+       embeddings
+             ↓
+        cosine similarity
+             ↓
+             1.0
+
